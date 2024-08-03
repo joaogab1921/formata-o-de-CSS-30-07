@@ -6,18 +6,6 @@ body{
     font-weight: weight
     
 }
-h1{
-    color: aliceblue;
-    text-align: center;
-    font-size: 35px;
-    
-}
-h2{
-    text-align: center;
-    font-weight: 600;
-}
-
-
 header{
     height: 80px;
     display: flex;
@@ -39,41 +27,53 @@ ul{
     font-size: 30px;
     margin: 8px;
 }
-
-#jogadores{
-        width: 40%;
+.j{
+    background-color: antiquewhite;
+    height: 300px;
+    margin: 150px;
+    h1{
+        color: rgb(128, 196, 196);;
+    }
+    
+}
+.perfil{
+    display: flex;
 }
 
-#man{
-     width: 40%;
-}
+#j{
+    width: 250px;
 
-#palm{
-     width: 40%;
 }
-.conteudo-principal{
+.texto{
     text-align: center;
+    width: 700px;
+    height: 260px;
 }
-.conteudo-lista{
-    text-align: center;
-}
-.meutime{
-    text-align: center;
-}
-p{
-    text-align: left;
-}
-li{
-    text-align: left;
-}
-
 #blu{
        color: rgb(128, 196, 196) ; 
     }
+.contato{
 
+    height: 50px;
+    width: 300px;
+    
+}
+.foto{
+    background-color: black;
+    height: 250px;
+    width: 250px;
+    margin: 8px;
+}
+#icone{
+    width: 10%;
+    padding-right: 0,5rem;
+    padding-left: 0,5rem;
+    
+   
+}
 footer{
     background-color: antiquewhite;
-    box-shadow: 0 0 1rem rgb(161, 153, 153);
+    box-shadow: 0 0 2rem rgb(114, 109, 109);
     height: 200px;
     display: flex;
 
