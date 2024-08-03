@@ -3,8 +3,9 @@ body{
     background-color: rgb(128, 196, 196);
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-weight: weight
-    
+    font-weight: weight;
+     margin: 0%;
+    height: 1000px;
 }
 h1{
     color: aliceblue;
@@ -42,6 +43,8 @@ ul{
 
 #jogadores{
         width: 40%;
+        border-radius: 30px;
+        box-shadow: 0 0 1rem rgb(161, 153, 153);
 }
 
 #man{
@@ -50,6 +53,12 @@ ul{
 
 #palm{
      width: 40%;
+     border-radius: 30px;
+     box-shadow: 0 0 1rem rgb(161, 153, 153);
+}
+#timesonho{
+    border-radius: 30px;
+    box-shadow: 0 0 1rem rgb(161, 153, 153);
 }
 .conteudo-principal{
     text-align: center;
@@ -76,9 +85,20 @@ footer{
     box-shadow: 0 0 1rem rgb(161, 153, 153);
     height: 200px;
     display: flex;
-
+    margin-top: 300px;
 }
 #roda{
     padding-left: 3rem;
     margin: 8px;
+}
+a:link {
+    color: rgb(128, 196, 196) ; 
+    text-decoration: none;
+  }
+
+a:visited{
+    color: rgb(128, 196, 196) ; 
+}
+a:hover , a:active{
+    color: blue;
 }

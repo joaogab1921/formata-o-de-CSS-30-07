@@ -3,8 +3,9 @@ body{
     background-color: rgb(128, 196, 196);
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-weight: weight
-    
+    font-weight: weight;
+    margin: 0%;
+    height: 1000px;
 }
 header{
     height: 80px;
@@ -30,8 +31,16 @@ ul{
 .j{
     background-color: antiquewhite;
     height: 300px;
-    margin: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    width: 1000px;
+    border-radius: 30px;
+
+
     h1{
+
         color: rgb(128, 196, 196);;
     }
     
@@ -42,6 +51,7 @@ ul{
 
 #j{
     width: 250px;
+    border-radius: 30px;
 
 }
 .texto{
@@ -56,19 +66,18 @@ ul{
 
     height: 50px;
     width: 300px;
-    
+    margin-left: 20px;
 }
 .foto{
-    background-color: black;
     height: 250px;
     width: 250px;
     margin: 8px;
+    
 }
 #icone{
     width: 10%;
     padding-right: 0,5rem;
     padding-left: 0,5rem;
-    
    
 }
 footer{
@@ -76,9 +85,19 @@ footer{
     box-shadow: 0 0 2rem rgb(114, 109, 109);
     height: 200px;
     display: flex;
-
+    margin-top: 300px;
 }
 #roda{
     padding-left: 3rem;
     margin: 8px;
+}
+a:link {
+    color: rgb(128, 196, 196) ; 
+    text-decoration: none;
+  }
+  a:visited{
+    color: rgb(128, 196, 196) ; 
+}
+a:hover , a:active{
+    color: blue;
 }
