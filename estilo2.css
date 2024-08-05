@@ -78,7 +78,10 @@ ul{
     width: 10%;
     padding-right: 0,5rem;
     padding-left: 0,5rem;
-   
+   transition: 500ms linear;
+}
+#icone:hover{
+    transform: scale(1.2);
 }
 footer{
     background-color: antiquewhite;
